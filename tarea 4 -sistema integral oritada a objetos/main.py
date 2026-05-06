@@ -90,3 +90,4 @@ class Reserva:
             logging.error(f"Error en {self.id_reserva}: {e}")
             raise  # Permite que el main gestione la continuidad
 print('yeiron mora')
+print('yeiron mora ingeniero')
