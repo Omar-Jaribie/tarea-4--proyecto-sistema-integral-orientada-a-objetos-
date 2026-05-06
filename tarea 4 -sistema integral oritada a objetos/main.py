@@ -84,7 +84,9 @@ class Reserva:
             monto = self.servicio.calcular_total(self.duracion, **self.extras)
             logging.info(f"Venta {self.id_reserva} exitosa por ${monto}")
             return monto
+        
 
         except Exception as e:
             logging.error(f"Error en {self.id_reserva}: {e}")
             raise  # Permite que el main gestione la continuidad
+print('yeiron mora')
