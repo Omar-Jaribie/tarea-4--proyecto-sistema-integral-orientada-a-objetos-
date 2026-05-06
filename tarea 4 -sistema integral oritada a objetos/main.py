@@ -89,5 +89,6 @@ class Reserva:
         except Exception as e:
             logging.error(f"Error en {self.id_reserva}: {e}")
             raise  # Permite que el main gestione la continuidad
+print(teamo mami')
 print('yeiron mora')
 print('yeiron mora ingeniero')
