@@ -1,3 +1,13 @@
+"""
+=============================================================================
+ SOFTWARE FJ - Clases Base, Servicios y Reserva
+=============================================================================
+ 
+ Descripción : Contiene excepciones, clases base, servicios y la clase
+               Reserva con manejo de excepciones.
+=============================================================================
+"""
+
 import logging
 from abc import ABC, abstractmethod
 
