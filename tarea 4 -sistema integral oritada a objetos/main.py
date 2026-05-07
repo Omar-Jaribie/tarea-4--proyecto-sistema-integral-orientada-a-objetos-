@@ -1,3 +1,13 @@
+"""
+=============================================================================
+ SOFTWARE FJ - Programa Principal
+=============================================================================
+ Grupo       : 121
+ Descripción : Ejecuta el sistema Software FJ y simula operaciones de
+               clientes, servicios, reservas y ventas.
+=============================================================================
+"""
+
 import logging  # Línea 1: Importación estándar sin caracteres ocultos
 from abc import ABC, abstractmethod
 
